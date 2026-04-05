@@ -78,7 +78,9 @@ Password: 12345
 ## 📄 Halaman-Halaman
 
 ### 1. **index.html** - Halaman Utama
+
 Halaman utama blog yang berisi:
+
 - **Navbar** dengan menu navigasi dan social media icons
 - **Jumbotron/Hero Section** dengan foto profil dan tagline
 - **About Section** dengan deskripsi singkat
@@ -87,12 +89,14 @@ Halaman utama blog yang berisi:
 - **Footer** dengan copyright
 
 ### 2. **login.html** - Halaman Login
+
 - Form login dengan validasi JavaScript
 - Gradient background modern
 - Redirect ke index.html setelah login berhasil
 - Alert untuk login gagal
 
 ### 3. **p1.html - p5.html** - Halaman Detail Project
+
 - Card dengan gambar project
 - Deskripsi project
 - Tombol back ke halaman utama
@@ -101,27 +105,34 @@ Halaman utama blog yang berisi:
 ## 🎨 Customization
 
 ### Mengubah Warna
+
 Edit gradient background di file HTML atau CSS:
+
 ```css
 background: linear-gradient(135deg, #4facfe, #00f2fe);
 ```
 
 ### Mengganti Foto Profil
+
 Replace file `img/pol.png` dengan foto Anda
 
 ### Mengganti Gambar Project
+
 - Thumbnail: Replace `img/download.jpg`
 - Detail: Replace `img/pjk.png`
 
 ### Mengubah Kredensial Login
+
 Edit di file `login.html`:
+
 ```javascript
 if (email == "admin@gmail.com" && password == "12345") {
-    // Ubah email dan password di sini
+  // Ubah email dan password di sini
 }
 ```
 
 ### Menambah/Mengurangi Project
+
 1. Edit section projects di `index.html`
 2. Buat file baru `p6.html`, `p7.html`, dst.
 3. Sesuaikan link di card project
@@ -129,6 +140,7 @@ if (email == "admin@gmail.com" && password == "12345") {
 ## 🌐 Social Media Links
 
 Website ini terhubung dengan platform:
+
 - 📘 Facebook
 - 📷 Instagram
 - 🧵 Threads
@@ -138,41 +150,45 @@ Website ini terhubung dengan platform:
 - ✈️ Telegram
 
 Update link social media di `index.html` pada bagian navbar:
+
 ```html
 <a href="https://www.instagram.com/roouuf_" class="text-white">
-    <i class="bi bi-instagram"></i>
+  <i class="bi bi-instagram"></i>
 </a>
 ```
 
 ## ⚙️ Fitur JavaScript
 
 ### 1. Login Validation
+
 ```javascript
 function login(event) {
-    event.preventDefault()
-    let email = document.getElementById("email").value
-    let password = document.getElementById("password").value
-    
-    if (email == "admin@gmail.com" && password == "12345") {
-        alert("Login berhasil!")
-        window.location.href = "index.html"
-    } else {
-        alert("Email atau Password salah!")
-    }
+  event.preventDefault();
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
+
+  if (email == "admin@gmail.com" && password == "12345") {
+    alert("Login berhasil!");
+    window.location.href = "index.html";
+  } else {
+    alert("Email atau Password salah!");
+  }
 }
 ```
 
 ### 2. Contact Form Alert
+
 ```javascript
 function showAlert(event) {
-    event.preventDefault();
-    alert("Pesan berhasil dikirim! Terima kasih sudah menghubungi saya 😊");
+  event.preventDefault();
+  alert("Pesan berhasil dikirim! Terima kasih sudah menghubungi saya 😊");
 }
 ```
 
 ## 📱 Responsive Breakpoints
 
 Website menggunakan Bootstrap responsive grid:
+
 - **Mobile**: < 768px
 - **Tablet**: 768px - 991px
 - **Desktop**: > 992px
@@ -219,6 +235,7 @@ Website menggunakan Bootstrap responsive grid:
 ## 🎯 Browser Support
 
 Website kompatibel dengan:
+
 - ✅ Google Chrome (Latest)
 - ✅ Mozilla Firefox (Latest)
 - ✅ Safari (Latest)
@@ -234,7 +251,7 @@ Website kompatibel dengan:
 Saran dan feedback sangat diterima! Silakan hubungi melalui:
 
 - 📧 **Email**: muhammadarrouf052@gmail.com
-- 📷 **Instagram**: [@roouuf_](https://www.instagram.com/roouuf_?igsh=Z2Qxcm5sMXVqcWRt)
+- 📷 **Instagram**: [@roouuf\_](https://www.instagram.com/roouuf_?igsh=Z2Qxcm5sMXVqcWRt)
 - 💼 **LinkedIn**: [Profile](https://www.linkedin.com/login/in)
 - 🐙 **GitHub**: [Roouuff](https://github.com/Roouuff)
 
@@ -243,6 +260,7 @@ Saran dan feedback sangat diterima! Silakan hubungi melalui:
 Untuk pertanyaan atau kolaborasi, hubungi:
 
 **Muhammad Abdul Rouf**
+
 - Content Creator | Web Developer | AI Engineer
 - Based in Indonesia 🇮🇩
 
@@ -250,4 +268,6 @@ Untuk pertanyaan atau kolaborasi, hubungi:
 
 **Made with ❤️ by Muhammad Abdul Rouf**
 
-*BlogKu © 2026*
+_BlogKu © 2026_
+
+# BLOGS
