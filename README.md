@@ -244,7 +244,7 @@ Website kompatibel dengan:
 
 ## 📄 License
 
-© 2026 Muhammad Abdul Rouf. All rights reserved.
+Proyek ini dibuat untuk keperluan praktikum akademik — Pemrograman Web, Tahun Ajaran 2025/2026.
 
 ## 🤝 Kontribusi & Feedback
 
